@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+.images > img {
+    display: flex; 
+    flex-basis: calc(25% - 40px);
+    justify-content: center;
+    flex-direction: column;
+}
+
+.images > img > img {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
