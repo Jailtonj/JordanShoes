@@ -5,11 +5,27 @@
     box-sizing: border-box;
 }
 
+/* fonts */
+
+
+
+body {
+    background-color: #F9F9F9;
+}
+
+h1, h2, p {
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
 
 
+
+
+
+
+@media (min-width: 800px) {
 /* FlexBox 4x4 Grid */
 .images {
     display: flex;
@@ -29,4 +45,4 @@
     justify-content: center;
     flex-direction: row;
   }
-  
+}
