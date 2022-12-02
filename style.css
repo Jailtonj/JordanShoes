@@ -216,4 +216,12 @@ footer, p {
     padding-left: 10%;
     padding-right: 10%;
   }
+
+  .frasesfoto {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    margin-left: 10%;
+  }
 }
