@@ -138,7 +138,13 @@ footer, p {
 }
 
 @media (min-width: 800px) {
-  /* Header */
+/* Main */
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+/* Header */
 header p {
     color: #F9F9F9;
     font-weight: 500;
@@ -153,16 +159,6 @@ header p {
 }
 
 /* Desciption */
-
-.description {
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/Air-Jordan-2-Retro-High-OG-Wmns-TWIST-Feminino\ 1.png);
-    width: 100%;
-    background-position: center;
-    height: 378px;
-    background-size: cover;
-}
-
-
 .description h1 {
     color: #F9F9F9;
     font-size: 32px;
@@ -190,19 +186,9 @@ header p {
     font-size: 18px;
 }
 
-/* Fotos dos tênis */
+/* cards flex */
 
-.images {
-    width: 100%;
-    height: 280px;
-}
-
-/* Footer */
-footer, p {
-    font-size: 18px;
-}
-
-  .app1 {
+.app1 {
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -213,16 +199,23 @@ footer, p {
     justify-content: space-between;
   }
 
-  main {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
+/* Fotos dos tênis */
 
-  .frasesfoto {
+.images {
+    width: 100%;
+    height: 220px;
+}
+
+.frasesfoto {
     display: flex;
     flex-direction: column;
     position: absolute;
     left: 0px;
     margin-left: 10%;
   }
+
+/* Footer */
+footer, p {
+    font-size: 18px;
+}
 }
